@@ -1,0 +1,182 @@
+		BODY {
+            
+        }
+        nav{
+            display: block;
+            padding-top: 10px; /* Поля */
+            padding-bottom: 10px; /* Поля */
+            background: #B0C4DE; /* Цвет фона */
+            margin-left: -10px;
+            margin-right: -10px;
+            margin-top: 30px;
+            text-align: center;
+            opacity: 90%;   /* Прозрачность */
+        }
+        .a_nav{
+            margin: 7px;
+            color: #ffffff;
+            text-decoration: none
+        }
+        
+        .reg{
+            padding: 0 20px 20px 20px;
+            background: #B0C4DE; /* Цвет фона */
+            opacity: 90%;   /* Прозрачность */
+            border-radius: 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .auth{
+            padding: 0 20px 20px 20px;
+            background: #B0C4DE; /* Цвет фона */
+            opacity: 90%;   /* Прозрачность */
+            border-radius: 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .prof{
+            width: 20%;
+            background: #B0C4DE; /* Цвет фона */
+            opacity: 90%;   /* Прозрачность */
+            border-radius: 20px;
+            text-align: center;
+            color: #ffffff;
+        }
+        .orders{
+            margin-top: 15px;
+            border-radius: 20px;
+            opacity: 90%;
+            background: #B0C4DE;
+            color: #ffffff;
+            margin-left: 25%;
+            width: 50%;
+
+        }
+		.orders1{
+            margin-top: 15px;
+            
+            opacity: 90%;
+            background: #B0C4DE;
+            color: #ffffff;
+           
+            width: 100%;
+
+        }
+		.inf{
+            border-radius: 10px;
+            width: 40%;
+            opacity: 90%;/* Прозрачность */
+            background: #B0C4DE;
+            color: #ffffff;
+        }
+		.content {
+			margin-top: 30px;
+			justify-content: center;
+			width: 100%;
+			display: flex;
+			flex-direction: row; /* Изменено на направление строки */
+		}
+		.we {
+			float:right;
+			border-radius: 10px;
+			width: 75%;
+			opacity: 90%;
+			background: #B0C4DE;
+			color: #ffffff;
+			order: 2; /* Изменен порядок элемента на второй */
+		}
+
+		/*ссылки на предмет страхования*/
+		.prod1 {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			width: 95%; /* Пример фиксированного размера в 80% */
+		}
+		
+		.prod1_content {
+			width: 90%; /* Фиксированная ширина */
+			height: 130px; /* Фиксированная высота */
+			border-radius: 10px;
+			padding: 2px 1em 1em 1em;
+			opacity: 90%;/* Прозрачность */
+			background: #B0C4DE;
+			color:#ffffff;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-right: 10px; /* Уменьшает расстояние между контейнерами */
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+
+		td {
+			padding: 5px;
+			text-align: center;
+		}
+		/*картинки в index.php*/
+		.foto {
+			width: auto; /* Ширина занимает всю доступную ширину контейнера */
+			height: 24%; /* Автоматическая высота, чтобы сохранить пропорции */
+			max-width: 100%;
+			max-height: 100%; /* Максимальная высота равна высоте контейнера */
+			border-radius: 10px;
+			margin-top: 10px;
+			
+		}
+		.foto_main {
+			width: 25%; /* Установка ширины картинки */
+			
+		}
+		.text {
+			font-size: large;
+			font-weight: bold;
+		text-align:center;
+		
+		}
+		.a {
+			display: inline-block;
+			color: #fff;
+			text-decoration: none;
+		}
+		.a:hover {
+			background-color: #0056b3;
+		}
+		/*кнопки*/
+		.order-button {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #4682B4;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 5px;
+		}
+		.order-button:hover {
+			background-color: #0056b3;
+		}
+		
+		.page {
+		  display: flex;
+		  justify-content: center;
+		}
+		.content_news {
+			
+			width: 30%;
+			display: flex;
+			flex-direction: row; /* Изменено на направление строки */
+		}
+		.image_with_text {
+		display: flex; /* Отображение дочерних элементов в строку */
+	}
+	.text_right {
+		width: auto; /* Автоматическая ширина */
+		padding: 0 50px; /* Отступы по бокам текста */
+		text-align: center;
+		margin-left: 10px; /* Отступ слева от изображения */
+		font-weight: bold; /* Жирный текст */
+    font-style: italic; /* Курсив */
+	}
+
